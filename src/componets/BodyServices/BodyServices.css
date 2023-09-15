@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.genServices{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff6b30ee;
+}
+.genServices #title{
+    width: 100%;
+    height: 10vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: ;
+}
+.alto{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.bajo{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.cardOne{
+    width: 20%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.ImagesLogo {
+    width: 60%;
+    height: 20vh;
+}

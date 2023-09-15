@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.gen{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffbcafe5;
+}
+.info{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.info button{
+    width: 10vw;
+    height: 5vh;
+    margin-top: 2vh;
+    background: url(https://img.lovepik.com/background/20211021/large/lovepik-black-texture-background-image_401621723.jpg);
+    color: #ff6b30ee;
+    font-weight: 600;
+    background-size: 20vw 20vh;
+    border: 2px solid #ff6b30ee;
+    border-radius: 15px;
+}
+.p{
+    width: 20vw;
+    font-size: 20px;
+    text-align: center;
+}
+.p1{
+    width: 30vw;
+    font-size: 30px;
+    text-align: center;
+}
+.p2{
+    width: 30vw;
+    height: 20vh;
+    font-size: 15px;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image img{
+    border: 3px solid orangered;
+    border-radius: 50%;
+}
+span{
+    color: black;
+    padding-right: 3px;
+    border-right: 2px solid black;
+}
+.l{
+    width: 10vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 5%;
+    padding-top: 1%;
+}
+.l1 li{
+    width: 1px;
+    height: 23%;
+    list-style-image: url(./images//instagram_1384031.png);
+}
+.l2 li{
+    width: 1px;
+    height: 23%;
+    list-style-image: url(./images/facebook.png);
+}
+.l3 li{
+    width: 1px;
+    height: 23%;
+    list-style-image: url(./images/linkedin.png);
+}

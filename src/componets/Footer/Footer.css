@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.footer{
+    width: 100%;
+    height: 20vh;
+    background: url(https://img.lovepik.com/background/20211021/large/lovepik-black-texture-background-image_401621723.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.footer p{
+    color: #ff6b30ee;
+    font-size: 16px;
+    font-weight: 600;
+}
+.footer button{
+    width: 4vw;
+    height: 6vh;
+    background-color: #ff6b30ee;
+    border: 2px;
+}
