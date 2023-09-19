@@ -14,7 +14,6 @@ export const Header = () => {
               <Navbar  anchor='HOME' path="/" /> 
               <Navbar  anchor='SERVICES' path="/Services" /> 
               <Navbar  anchor='Proyectos' path="/Proyectos" Component={Proyectos}/>
-              <Navbar  anchor='Contact' path="/Contact"/>
           </div> 
       </header>
       

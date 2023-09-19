@@ -4,44 +4,45 @@ export const BodyServices = () => {
   return (
     <div className='genServices'>
       <h1 id='title'>Front-End</h1>
+      <hr />
       <div className='alto'>
         
           <div className="cardOne">
               <h2>React</h2>
-              <img src="https://desarrolloweb.com/storage/tag_images/actual/n3m2Az0VWHFdb4ng3q9JbDrbCjar8hE7K0SV7M8n.png" className="ImagesLogo" alt="" />
+              <img src="./public/images/react.jpg" className="ImagesLogo" alt="" />
               <p>Manejo de react en visual studio code, con diferentes librerias para el diseño de la pag, manejo de huck's y el DOM</p>
           </div>
           <div className="cardOne">
-              <h2>css</h2>
-              <img src="https://cdn-icons-png.flaticon.com/512/919/919826.png" className="ImagesLogo" alt="" />
+              <h2>CSS</h2>
+              <img src="./public/images/css.jpg" className="ImagesLogo" alt="" />
               <p>Manejo de react en visual studio code, con diferentes librerias para el diseño de la pag, manejo de huck's y el DOM</p>
           </div>
           <div className="cardOne">
-              <h2>css</h2>
-              <img src="https://desarrolloweb.com/storage/tag_images/actual/n3m2Az0VWHFdb4ng3q9JbDrbCjar8hE7K0SV7M8n.png" alt="" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo reiciendis earum unde tempora, adipisci, quidem nemo at maiores perspiciatis autem, enim nobis harum fugit saepe ut architecto eligendi suscipit modi!</p>
+              <h2>Html</h2>
+              <img src="./public/images/Html.png" alt="" />
+              <p>Conocimiento en Html nativo y cada unas las propiedades de html</p>
           </div>
       </div>
       <h1 id='title'>Back-End</h1>
+      <hr />
+
       <div className='bajo'>
         <div className="cardOne">
-              <h1>back-end</h1>
               <h2>Java</h2>
-              <img src="https://desarrolloweb.com/storage/tag_images/actual/n3m2Az0VWHFdb4ng3q9JbDrbCjar8hE7K0SV7M8n.png" className="ImagesLogo" alt="" />
+              <img src="https://cdn-icons-png.flaticon.com/256/226/226777.png " className="ImagesLogo" alt="" />
               <p>Manejo de react en visual estudio code con diferentes librerias</p>
           </div>
           <div className="cardOne">
-              <h1>back-end</h1>
-              <h2>JavaScript</h2>
-              <img src="https://desarrolloweb.com/storage/tag_images/actual/n3m2Az0VWHFdb4ng3q9JbDrbCjar8hE7K0SV7M8n.png" className="ImagesLogo" alt="" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo reiciendis earum unde tempora, adipisci, quidem nemo at maiores perspiciatis autem, enim nobis harum fugit saepe ut architecto eligendi suscipit modi!</p>
+              <h2>NodeJs</h2>
+              <img src="./public/images/nodejs.jpg" className="ImagesLogo" alt="" />
+              <p>Conocimiento en Html nativo y cada unas las propiedades de NodeJs</p>
           </div>
           <div className="cardOne">
-              <h1>back-end</h1>
               <h2>C#</h2>
-              <img src="https://desarrolloweb.com/storage/tag_images/actual/n3m2Az0VWHFdb4ng3q9JbDrbCjar8hE7K0SV7M8n.png" className="ImagesLogo" alt="" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo reiciendis earum unde tempora, adipisci, quidem nemo at maiores perspiciatis autem, enim nobis harum fugit saepe ut architecto eligendi suscipit modi!</p>
+              <img src="./public/images/c.png" className="ImagesLogo" alt="" />
+              <p>Manejo del Back-end en c#, en la parte web</p>
           </div>
+          
       </div>
     </div>
   )

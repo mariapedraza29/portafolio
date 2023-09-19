@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Proyectos{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f0cfaa;
+}
+.Proyectos .Blueasy{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.Blueasy img{
+    width: 80%;
+}
+
+.Proyectos .Bleux{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.Bleux img{
+    width: 80%;
+}
+
+.Proyectos .Giphy{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.Giphy img{
+    width: 80%;
+}
+.Proyectos h1{
+    width: 77%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: #ff6b30ee;
+    font-weight: 700;
+}

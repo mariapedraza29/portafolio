@@ -1,14 +1,13 @@
 import { Header } from "../Header/Header"
+import { BodyProyectos } from "../BodyProyectos/BodyProyectos"
+import { Footer } from "../Footer/Footer";
 export const Proyectos = () => {
   return (
     
     <div>
-      
       <Header></Header>
-      <div className="pagTenor">
-        <img src="https://tenorgif.netlify.app/" alt="Pagina de gif" />
-      </div>
-      
+      <BodyProyectos/>
+      <Footer></Footer>
     </div>
   )
 }
